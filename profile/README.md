@@ -1,7 +1,7 @@
 # <p align="center"> Sistema-de-Controle-Matriz-OCC-UAS </p>
 
 <p align="center">
-  <img src="SCM.jpeg" height="175px" />
+  <img src="SCM.jpeg" alt="Logo do SCM - Sistema de Controle Matriz OCC/UAS" height="175px" />
 </p>
 
 O SCM - Sistema de Controle Matriz OCC/UAS é um projeto desenvolvido no contexto da disciplina Práticas em Desenvolvimento de Software (PDS), com o objetivo de aplicar conceitos de engenharia de software na construção de uma solução para apoio às atividades da Secretaria de Controle Orçamentário (SECOR/DIORC/PROPLAN).
