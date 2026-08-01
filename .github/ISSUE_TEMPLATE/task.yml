@@ -1,5 +1,5 @@
-name: 🛠️ Tarefa de Desenvolvimento (User Story)
-description: Crie uma tarefa acionável para o desenvolvimento de uma funcionalidade.
+name: 🛠️ Tarefa
+description: Crie uma tarefa acionável para a equipe.
 title: "[TASK] <título curto da tarefa>"
 labels: ["task"]
 body:
