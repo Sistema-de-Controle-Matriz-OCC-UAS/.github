@@ -1,0 +1,39 @@
+name: 🛠️ Tarefa de Desenvolvimento (User Story)
+description: Crie uma tarefa acionável para o desenvolvimento de uma funcionalidade.
+title: "[TASK] <título curto da tarefa>"
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Preencha os detalhes da tarefa para que qualquer membro da equipe possa assumi-la e desenvolvê-la sem dúvidas.
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto / História do Usuário
+      description: Explique brevemente a necessidade. Se for uma User Story, use o formato "Como [ator], eu quero [ação] para que [motivo/valor]".
+      placeholder: "Como analista da SECOR, eu quero visualizar um dashboard orçamentário para acompanhar os gastos em tempo real."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Critérios de Aceite (Definition of Done)
+      description: Quais são as regras de negócio ou condições para que essa tarefa seja considerada concluída e aprovada?
+      placeholder: |
+        - [ ] O endpoint `/api/budget` deve retornar os dados paginados.
+        - [ ] A interface deve tratar o estado de carregamento (loading).
+        - [ ] Testes unitários do componente foram criados.
+    validations:
+      required: true
+  - type: textarea
+    id: technical_details
+    attributes:
+      label: Detalhes Técnicos / Subtarefas (Opcional)
+      description: Dicas técnicas, links para o Figma, modelagem de banco ou um passo a passo do que precisa ser codificado.
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependências
+      description: Essa tarefa depende de outra issue para ser iniciada? Se sim, cole o link ou o número (#) da issue.
+      placeholder: "Depende da issue #4 no repositório de backend"
