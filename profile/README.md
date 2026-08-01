@@ -1,4 +1,4 @@
-# <p align="center"> Sistema de Controle Matriz OCC UAS </p>
+# <p align="center"> Sistema de Controle Matriz OCC/UAS </p>
 
 <p align="center">
   <img src="SCM.jpeg" alt="Logo do SCM - Sistema de Controle Matriz OCC/UAS" height="175px" />
