@@ -1,6 +1,6 @@
 name: 🛠️ Tarefa
 description: Crie uma tarefa acionável para a equipe.
-title: ""
+title: "<Substitua pelo título>"
 labels: ["task"]
 body:
   - type: markdown
