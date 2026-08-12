@@ -28,3 +28,14 @@ body:
       description: O que deveria ter acontecido?
     validations:
       required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: 🔴 Critérios de Aceite
+      description: Quais são as regras de negócio ou condições para que essa tarefa seja considerada concluída e aprovada?
+      placeholder: |
+        - [ ] O endpoint `/api/budget` deve retornar os dados paginados.
+        - [ ] A interface deve tratar o estado de carregamento (loading).
+        - [ ] Testes unitários do componente foram criados.
+    validations:
+      required: true
