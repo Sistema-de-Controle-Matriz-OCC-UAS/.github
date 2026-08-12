@@ -18,11 +18,12 @@ body:
   - type: textarea
     id: acceptance_criteria
     attributes:
-      label: 🟢 Critérios de Aceite da Atividade
+      label: 🟢 Critérios de Aceite
       description: Quais são as regras de negócio ou condições para que essa tarefa seja considerada concluída e aprovada?
       placeholder: |
-        - [ ] Tarefa está de acordo com o [Definition of Done do projeto](https://google.com)
-        - [ ] ...
+        - [ ] O endpoint `/api/budget` deve retornar os dados paginados.
+        - [ ] A interface deve tratar o estado de carregamento (loading).
+        - [ ] Testes unitários do componente foram criados.
     validations:
       required: true
   - type: textarea
