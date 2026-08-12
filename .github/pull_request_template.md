@@ -19,13 +19,12 @@ Closes #
 2. Rode o comando `...`
 3. Verifique se o comportamento X acontece.
 
-## ✅ Checklist (Definition of Done)
+## ✅ Definition of Done
 <!-- Revise todos os pontos antes de solicitar a avaliação de outro membro da equipe. -->
-- [ ] Meu código segue os padrões de lint e formatação adotados.
-- [ ] Fiz uma auto-revisão do meu próprio código.
-- [ ] Atualizei a documentação relevante (se necessário).
-- [ ] Adicionei/atualizei testes para cobrir minhas alterações.
-- [ ] O código compila sem erros ou novos avisos (warnings).
+- [ ] O código atende a todos os Critérios de Aceite descritos na Issue.
+- [ ] O código passou por Code Review e foi aprovado no Pull Request para a branch develop.
+- [ ] Não existem conflitos de merge ou erros de execução.
+- [ ] A documentação associada (BPMN, modelos de BD, requisitos) foi atualizada no repositório de docs.
 
 ## 📸 Screenshots / Logs (Opcional)
 <!-- Se for uma alteração no Frontend (interface) ou Docs, adicione prints de 'Antes/Depois'. Se for Backend/Infra, adicione logs importantes. -->
