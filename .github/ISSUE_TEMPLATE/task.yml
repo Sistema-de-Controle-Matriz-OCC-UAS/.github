@@ -21,7 +21,7 @@ body:
       label: 🟢 Critérios de Aceite da Atividade
       description: Quais são as regras de negócio ou condições para que essa tarefa seja considerada concluída e aprovada?
       placeholder: |
-        - [ ] Tarefa está de acordo com o [Definition of Done do projeto](https://github.com/Sistema-de-Controle-Matriz-OCC-UAS/docs/blob/7f2c4f6b9dbd64fdb4a006f41fffbd827ee8856d/Regras%20e%20Padr%C3%B5es%20/SCRUM.md)
+        - [ ] Tarefa está de acordo com o [Definition of Done do projeto](https://google.com)
         - [ ] ...
     validations:
       required: true
