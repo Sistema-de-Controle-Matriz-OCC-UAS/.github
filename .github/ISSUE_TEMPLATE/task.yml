@@ -18,12 +18,11 @@ body:
   - type: textarea
     id: acceptance_criteria
     attributes:
-      label: 🟢 Critérios de Aceite (Definition of Done)
+      label: 🟢 Critérios de Aceite da Atividade
       description: Quais são as regras de negócio ou condições para que essa tarefa seja considerada concluída e aprovada?
       placeholder: |
-        - [ ] O endpoint `/api/budget` deve retornar os dados paginados.
-        - [ ] A interface deve tratar o estado de carregamento (loading).
-        - [ ] Testes unitários do componente foram criados.
+        - [ ] Tarefa está de acordo com o Definition of Done do projeto: https://github.com/Sistema-de-Controle-Matriz-OCC-UAS/docs/blob/7f2c4f6b9dbd64fdb4a006f41fffbd827ee8856d/Regras%20e%20Padr%C3%B5es%20/SCRUM.md
+        - [ ] ...
     validations:
       required: true
   - type: textarea
