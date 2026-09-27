@@ -11,8 +11,8 @@ body:
     id: context
     attributes:
       label: 🟢 Contexto / História do Usuário
-      description: Explique brevemente a necessidade. Se for uma User Story, use o formato "Como [ator], eu quero [ação] para que [motivo/valor]". Link para os requisitos: https://github.com/Sistema-de-Controle-Matriz-OCC-UAS/docs/tree/64ae5e7dfb01805c61f83065491decd4d8202705/engenharia-de-requisitos/requisitos-e-mvp
-      placeholder: "Como analista da SECOR, eu quero visualizar um dashboard orçamentário para acompanhar os gastos em tempo real."
+      description: Explique brevemente a necessidade. Se for uma User Story, use o formato "Como [ator], eu quero [ação] para que [motivo/valor]".
+      placeholder: "Como analista da SECOR, eu quero visualizar um dashboard orçamentário para acompanhar os gastos em tempo real." **LINK PARA OS REQUISITOS**: https://github.com/Sistema-de-Controle-Matriz-OCC-UAS/docs/tree/64ae5e7dfb01805c61f83065491decd4d8202705/engenharia-de-requisitos/requisitos-e-mvp
     validations:
       required: true
   - type: textarea
